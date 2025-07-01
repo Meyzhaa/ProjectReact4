@@ -28,7 +28,20 @@
       </ul>
     </nav>
 
-    <-- Page 1 -->
+ <!-- Page 1 -->
+  <section class="welcome-frame">
+    <div data-aos="fade-up" class="icons">
+      <i data-aos="fade-up" data-aos-delay="200" class="ph ph-code"></i>
+      <i data-aos="fade-up" data-aos-delay="300" class="ph ph-user"></i>
+      <i data-aos="fade-up" data-aos-delay="400" class="ph ph-monitor"></i>
+    </div>
+    <h1>
+      Welcome To My <br>
+      <span>Portfolio Website</span>
+    </h1>
+    <p data-aos="fade-up" data-aos-delay="500" class="website-link">@ www.meyau.com</p>
+  </section>
+
     <-- Page 2 -->
     <-- Page 3 -->
     <-- Page 4 -->
