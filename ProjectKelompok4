@@ -43,6 +43,29 @@
   </section>
 
     <-- Page 2 -->
+<section id="home" data-aos="fade-up" data-aos-delay="200" class="hero-frame">
+    <div class="hero-content">
+      <div data-aos="fade-up" data-aos-delay="300" class="content">
+        <span class="tag">👨‍💻 Ready for innovation</span>
+        <h1>Frontend <span>Developer</span></h1>
+        <p class="desc">Network & Telecom |<br>"Informatika bukan hanya tentang teknologi, tapi tentang cara berpikir yang mengubah dunia."
+        <br>Selamat datang di portofolio saya. Saya adalah lulusan/mahasiswa di bidang Informatika dengan minat dalam pengembangan perangkat lunak, desain antarmuka, dan solusi berbasis teknologi. Portofolio ini berisi kumpulan proyek, pengalaman, 
+        dan keterampilan yang saya kembangkan selama perjalanan akademik dan profesional saya di dunia teknologi.</p>
+        <div class="tech-stack">
+          <span>React</span><span>JavaScript</span><span>Node.js</span><span>Tailwind</span>
+        </div>
+        <div class="socials">
+          <i class="ph ph-instagram-logo"></i>
+          <i class="ph ph-linkedin-logo"></i>
+          <i class="ph ph-github-logo"></i>
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="600" class="image">
+        <img src="https://i.pinimg.com/originals/1d/72/a2/1d72a2ecc5710dcabf7c0e95e3bccb16.gif" alt="Frontend Illustration">
+      </div>
+    </div>
+  </section>
+
     <-- Page 3 -->
     <-- Page 4 -->
     <-- Page 5 -->
