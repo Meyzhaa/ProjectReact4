@@ -143,5 +143,46 @@
     &copy; 2025 YourName. All rights reserved.
   </div>
 </div>
+<script>
+  let currentTabId = "portfolio";
+
+  function showTab(id, element) {
+    if (id === currentTabId) return;
+
+    const newTab = document.getElementById(id);
+    const oldTab = document.getElementById(currentTabId);
+
+    // Tambahkan class transisi keluar (arah kiri atau kanan)
+    if (id === "certificate") {
+      oldTab.classList.add("slide-left");
+    } else {
+      oldTab.classList.add("slide-right");
+    }
+
+    oldTab.classList.remove("active-tab");
+
+    // Reset animasi keluar setelah selesai
+    setTimeout(() => {
+      oldTab.classList.remove("slide-left", "slide-right");
+      oldTab.style.display = "none";
+
+      newTab.style.display = "block";
+      setTimeout(() => {
+        newTab.classList.add("active-tab");
+      }, 10);
+
+      currentTabId = id;
+    }, 500);
+
+    // Update tombol aktif
+    const buttons = document.querySelectorAll(".tab-button");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    if (element) element.classList.add("active");
+  }
+
+  window.onload = () => {
+    showTab("portfolio", document.querySelector(".tab-button"));
+  };
+</script>
 </body>
 </html>
