@@ -130,5 +130,59 @@
     <-- Page 5 -->
     <-- Page 6 -->
     <-- Page 7 -->
+<div id="contact" data-aos="fade-up" data-aos-delay="200" style="padding:6rem 2rem; text-align:center; background:linear-gradient(to right, #1b0033, #090021); color:white;">
+  <h2 style="color:#bb86fc; font-size:2.5rem; margin-bottom:1rem;">Contact Me</h2>
+  <p style="font-size:1.1rem; color:#ccc; max-width:600px; margin:0 auto 3rem;">Got a question or proposal? I’d love to hear from you. Let’s connect and build something amazing together.</p>
+  <form style="max-width:600px; margin:0 auto; display:flex; flex-direction:column; gap:1rem;">
+    <input type="text" placeholder="Your Name" style="padding:1rem; border-radius:12px; border:none; background:#220044; color:white; font-size:1rem;" />
+    <input type="email" placeholder="Your Email" style="padding:1rem; border-radius:12px; border:none; background:#220044; color:white; font-size:1rem;" />
+    <textarea placeholder="Your Message" rows="5" style="padding:1rem; border-radius:12px; border:none; background:#220044; color:white; font-size:1rem;"></textarea>
+    <button type="submit" style="background:#bb86fc; color:#100022; padding:1rem 2rem; border:none; border-radius:12px; font-weight:bold; font-size:1rem; cursor:pointer; transition:0.3s;">Send Message</button>
+  </form>
+  <div style="margin-top:3rem; color:#888; font-size:0.9rem;">
+    &copy; 2025 YourName. All rights reserved.
+  </div>
+</div>
+<script>
+  let currentTabId = "portfolio";
+
+  function showTab(id, element) {
+    if (id === currentTabId) return;
+
+    const newTab = document.getElementById(id);
+    const oldTab = document.getElementById(currentTabId);
+
+    // Tambahkan class transisi keluar (arah kiri atau kanan)
+    if (id === "certificate") {
+      oldTab.classList.add("slide-left");
+    } else {
+      oldTab.classList.add("slide-right");
+    }
+
+    oldTab.classList.remove("active-tab");
+
+    // Reset animasi keluar setelah selesai
+    setTimeout(() => {
+      oldTab.classList.remove("slide-left", "slide-right");
+      oldTab.style.display = "none";
+
+      newTab.style.display = "block";
+      setTimeout(() => {
+        newTab.classList.add("active-tab");
+      }, 10);
+
+      currentTabId = id;
+    }, 500);
+
+    // Update tombol aktif
+    const buttons = document.querySelectorAll(".tab-button");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    if (element) element.classList.add("active");
+  }
+
+  window.onload = () => {
+    showTab("portfolio", document.querySelector(".tab-button"));
+  };
+</script>
 </body>
 </html>
