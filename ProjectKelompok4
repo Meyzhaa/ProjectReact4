@@ -67,6 +67,40 @@
   </section>
 
     <-- Page 3 -->
+<section class="about-frame" id="about">
+  <div class="about-content">
+    <div data-aos="fade-up" data-aos-delay="200" class="about-text">
+      <h2>About Me</h2>
+      <p class="subtitle">✨ Transforming ideas into digital experiences ✨</p>
+      <h3>Hello, I'm <span>Meyzha Auritza</span></h3>
+      <p class="desc">
+        seorang mahasiswa Teknik Jaringan Komputer dan Telekomunikasi yang tertarik dalam pengembangan Front-end.
+        Saya berfokus pada menciptakan pengalaman digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek.
+      </p>
+      <div class="about-buttons">
+        <button class="primary">⬇️ Download CV</button>
+      </div>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="400" class="about-photo">
+      <img src="https://i.pinimg.com/736x/80/51/90/805190fbb0ebed30864f5248ac9942c2.jpg" alt="Avatar">
+    </div>
+  </div>
+  <div data-aos="fade-up" data-aos-delay="600" class="about-stats">
+    <div class="stat">
+      <h4>3</h4>
+      <p>Total Projects</p>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="600" class="stat">
+      <h4>7</h4>
+      <p>Certificates</p>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="600" class="stat">
+      <h4>1</h4>
+      <p>Years of Experience</p>
+    </div>
+  </div>
+</section>
+
     <-- Page 4 -->
     <-- Page 5 -->
     <-- Page 6 -->
