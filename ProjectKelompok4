@@ -102,6 +102,31 @@
 </section>
 
     <-- Page 4 -->
+<div class="tab-container">
+  <div class="button-group">
+      <a class="tab-button" onclick="showTab('portfolio', this)">Portofolio</a>
+      <a class="tab-button" onclick="showTab('certificate', this)">Certificate</a>
+      <a class="tab-button" onclick="showTab('techstack', this)">Tech Stack</a>
+    </div>
+  <div id="portfolio" class="tab-content" style="padding:4rem 2rem;">
+    <div data-aos="fade-up" data-aos-delay="200" class="portfolio-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:2rem; margin-top:2rem;">
+      <div class="portfolio-card" style="background:#1a0033; border-radius:16px; padding:1rem;">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.43Bu7YMbTFaLMfpMIsZFuwHaEK&pid=Api&P=0&h=220" style="width:100%; border-radius:8px;" />
+        <h4>Aritmatika Solver</h4>
+        <p>Program mempermudah pengguna menyelesaikan soal otomatis.</p>
+      </div>
+      <div class="portfolio-card" style="background:#1a0033; border-radius:16px; padding:1rem;">
+        <img src="https://opengraph.githubassets.com/7bb83bcc6c98849b0e1af678fd8e3b99aca0b6acb2e9a55c11aedbbac05db717/recitativonika/Discord-auto-chat-py" style="width:100%; border-radius:8px;" />
+        <h4>AutoChat-Discord</h4>
+        <p>Bot Discord terjadwal untuk kirim pesan otomatis.</p>
+      </div>
+      <div class="portfolio-card" style="background:#1a0033; border-radius:16px; padding:1rem;">
+        <img src="https://i.ytimg.com/vi/lfdcYPlSPsg/maxresdefault.jpg" style="width:100%; border-radius:8px;" />
+        <h4>Buku Catatan</h4>
+        <p>Aplikasi catatan dengan simpan, hapus & tampilkan data.</p>
+      </div>
+    </div>
+  </div>
     <-- Page 5 -->
     <-- Page 6 -->
     <-- Page 7 -->
